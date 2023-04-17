@@ -1,0 +1,67 @@
+<html><style>
+      body {
+  background-image: url('C:\\Users\\Vinod\\Desktop\\foodweb\\foodimage10.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+form {
+  color:white;
+  height: 300px;
+  padding: 15px 50px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;}
+input{
+  width:50%;
+  
+}
+
+h1{
+color: black;
+}
+</style>
+    <body> <nav>
+        <div id="navDiv1">
+            <ul>
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Sign Up.html">Sign Up</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+              </ul>
+        </div>
+    </nav><br>
+        <h1><center>Feedback</center></h1>
+        <form action="userinfo.php" method="POST"><center><br>
+            <label>Our Food Quality:</label><br>
+            <input type="text" name="Ourfoodquality"><br><br><br>
+            <label>Our Service:</label><br>
+            <input type="text" name="ourservice	"><br><br><br>
+            <label>Overall Exprience With Us: </label><br>
+            <input type="text" name="overallexperiecewithus"><br><br><br>
+            
+            <label>Any Suggestion For Us:</label><br>
+            <input type="text" name="anysuggestionforus"><br><br><br>
+            <button>Submit</button></center>
+        </form>
